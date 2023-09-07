@@ -17,11 +17,11 @@ function getValuesFromUser (){
             myDiv.style.height = counterHeight + "px";
         }
     
-        if(counterWidth === divWidth && counterHeight === divHeight){
+        if(counterWidth == divWidth && counterHeight == divHeight){
             alert("the result!");
             clearInterval(interval);
         }
-        }, 100);
+        }, 50);
 
         return false;
     }
